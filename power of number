@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+  long int base, exp, result=1;
+printf("enter the base= ");
+scanf("%d",&base);
+printf("enter the exp= ");
+scanf("%d",&exp);
+while(exp!=0)
+{
+result*=base;
+--exp;
+}
+}
