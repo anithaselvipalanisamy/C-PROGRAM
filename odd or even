@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+double n;
+printf("enter the number= ");
+scanf("%lf",&n);
+if(n<0.0)
+{ 
+prnitf("the given number is negative");
+}
+if(n>0.0)
+
+print("the given number is positive");
+
+else
+
+printf("the given number is zero");
+
+}
